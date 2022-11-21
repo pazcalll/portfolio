@@ -35,3 +35,8 @@ body {
   margin-left: 20px;
   margin-right: 20px;
 }
+.project-imgs {
+  width: 320px;
+  max-width: 320px;
+  margin-right: auto;
+}
