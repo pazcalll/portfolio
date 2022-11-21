@@ -27,6 +27,8 @@ body {
 }
 .project {
   margin-top: 20px;
+  animation-duration: 1s;
+  animation-name: bounceInDown;
 }
 .footer {
   margin-top: 40px;
@@ -39,4 +41,14 @@ body {
   width: 320px;
   max-width: 320px;
   margin-right: auto;
+  display: flex;
+  max-width: 320px;
+  justify-content: space-between;
+  animation-duration: 1s;
+  animation-name: bounceInDown;
+}
+@media screen and (max-width: 720px) {
+  .project-imgs {
+    display: block;
+  }
 }
